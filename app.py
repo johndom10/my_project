@@ -6,13 +6,11 @@ st.title("Botones: Histograma y Dispersión")
 
 @st.cache_data
 def load_data():
-    # Usa tu CSV; si no, intenta con un sample
     for name in ("vehicles_us.csv", "vehicles_us_sample.csv"):
         try:
             return pd.read_csv(name)
         except Exception:
             pass
-    # Fallback pequeño
     return pd.DataFrame({
         "price":[12000, 8000,15000,5000,22000,17000,9000,13000,27000,7000],
         "odometer":[60000,120000,45000,180000,30000,80000,110000,65000,25000,140000]
@@ -67,3 +65,4 @@ elif st.session_state.last_plot == "scatter":
 
 else:
     st.info("Haz clic en un botón para ver la gráfica.")
+
