@@ -5,6 +5,7 @@ My test Project
 
 Aplicación web simple para explorar datos de vehículos y **cumplir los requisitos** del proyecto:
 - Encabezado con texto.
+- - **ENLACE AL DASHBOARD** (https://my-project-2-thlk.onrender.com/)
 - **Histograma** configurable.
 - **Gráfico de dispersión** configurable.
 - Al menos **un botón** y **una casilla de verificación**.
